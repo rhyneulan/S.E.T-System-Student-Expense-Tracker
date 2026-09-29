@@ -12,7 +12,7 @@ current_expense = spending()
 
 while True:
     clear_console() # Clear the Terminal before running again
-    print("===========================================================")
+    print("=============================================================")
     print("  Welcome to S.E.T SYSTEM: Student Expense Tracker System")
     print("=============================================================")
     print(    f"[dim]Current Spending: P {current_expense:.2f} [/dim]")

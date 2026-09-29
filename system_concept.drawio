@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="cjmqPHLsvDYFYWDJawfp" name="Page-1">
-        <mxGraphModel dx="560" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1120" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -205,20 +205,17 @@
                 </mxCell>
                 <mxCell id="snIz1l6rr4iLr3ZmMAFk-3" edge="1" parent="1" source="Ftav0pWG-g3YwQa-0ei_-57" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=oval;endFill=1;">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="760" y="810" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="650" y="810"/>
+                        </Array>
+                        <mxPoint x="650" y="530" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="Ftav0pWG-g3YwQa-0ei_-57" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="New Spending Limit" vertex="1">
                     <mxGeometry height="60" width="60" x="400" y="780" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ftav0pWG-g3YwQa-0ei_-62" edge="1" parent="1" source="Ftav0pWG-g3YwQa-0ei_-60" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="760" y="920"/>
-                            <mxPoint x="760" y="150"/>
-                        </Array>
-                        <mxPoint x="530" y="150" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="5F29NY-Nml0TnHLoPVp1-6" edge="1" parent="1" source="Ftav0pWG-g3YwQa-0ei_-60" style="edgeStyle=none;html=1;" target="5F29NY-Nml0TnHLoPVp1-5" value="">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="Ftav0pWG-g3YwQa-0ei_-60" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Exit" vertex="1">
                     <mxGeometry height="60" width="65" x="240" y="890" as="geometry"/>
@@ -234,6 +231,9 @@
                 </mxCell>
                 <mxCell id="snIz1l6rr4iLr3ZmMAFk-1" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="Money" vertex="1">
                     <mxGeometry height="60" width="60" x="370" y="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="5F29NY-Nml0TnHLoPVp1-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="Exit the Program" vertex="1">
+                    <mxGeometry height="80" width="80" x="340" y="880" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
