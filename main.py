@@ -33,7 +33,7 @@ while True:
     try:
         option = int(input("Enter Option: "))
     except ValueError:
-        option = 0
+        option = -1 
 
     if option == 1:
         print(f"\n--- Current Balance: P{balance:.2f}---")
