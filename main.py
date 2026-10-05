@@ -46,9 +46,9 @@ while True:
             else:
                 category = choose_category()
                 balance -= expense
-                save_value(balance) 
+                save_value(balance) #saves the deducted balance to the file
                 current_expense += expense
-                save_spending(current_expense)
+                save_spending(current_expense) #saves the accumulated spending to the file
                 
                 logs(f"[red bold]Expense: -P {expense:.2f}[/red bold] | [cyan bold] {category}[/cyan bold]")
                 print(f"\n[green bold]---Succesfully Deducted P{expense:.2f}.({category})---[/green bold]")
@@ -62,7 +62,7 @@ while True:
         try:
             amount = float(input("Enter Amount to Add: "))
             balance += amount
-            save_value(balance)
+            save_value(balance) #saves the added balance to the file
             logs(f"[green bold]Added: +P {amount:.2f}[/green bold]") 
             print(f"\n[green bold]---Successfully Added P{amount:.2f}.---[/green bold]")
         except ValueError:
@@ -94,7 +94,7 @@ while True:
     elif option == 6:
         confirm = input("Are you sure you want to clear all logs? (y/n): ").strip().lower()
         if confirm == 'y':
-            clear_logs()         
+            clear_logs() #clears the logs records       
             logs = logs_tracker() 
             print("\n[green bold]--- All recorded logs have been successfully cleared! ---[/green bold]")
         else:
@@ -103,7 +103,7 @@ while True:
     elif option == 7:
         reset = input("Do you want to reset your spending? (y/n): ").strip().lower()
         if reset == "y":
-            reset_spending()
+            reset_spending() #resets the added expenses to 0
             current_expense = spending()
             print("\n[green bold]---All spending has been successfully cleared!---[/green bold]")
         else:

@@ -3,10 +3,12 @@ from datetime import datetime
 
 logs_file = "logs.txt"
 
+#clears and resets the log records
 def clear_logs(filename="logs.txt"):
     with open(filename, "w") as file:
         file.write("")
 
+#records the logs of the expense and budget
 def logs_tracker(filename=logs_file):
     logs = []
     if os.path.exists(filename):

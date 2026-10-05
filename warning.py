@@ -1,7 +1,7 @@
 import os
 
 warning_file = "warning.txt"
-
+#default spending limit is set to 500.0 if the warning.txt file does not exist or is empty
 def limit(filename=warning_file, default_limit=500.0):
     if os.path.exists(filename):
         try:
@@ -20,7 +20,7 @@ def save_limit(new_limit, filename=warning_file):
         file.write(str(new_limit))
 
 expense = "spending.txt"
-
+#records the accumulated spending in a file called "spending.txt" and returns the value as a float. If the file does not exist or is empty, it returns 0.0.
 def spending(filename=expense):
     if os.path.exists(filename):
         try:
